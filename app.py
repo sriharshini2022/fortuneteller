@@ -15,7 +15,7 @@ st.markdown("""
 
 # 📌 Function to Call Google AI API (Gemini)
 def get_ai_future(name):
-    prompt = f"Imagine a funny and bizarre future yet motivational prediction in simple sort and sweet in 50 words , english and  a bit telugu for an indian person named {name}. Make it witty and creative!"
+    prompt = f"Imagine a funny and bizarre future yet motivational prediction in simple sort and sweet in 200  words , english and  a bit telugu for an indian person named {name}. Make it witty and creative!"
     
     model = genai.GenerativeModel("gemini-1.5-flash")
     response = model.generate_content(prompt)
