@@ -9,7 +9,7 @@ st.set_page_config(page_title="The AI-strologer", page_icon="🔮")
 
 # 🏆 Title & Introduction
 st.markdown("""
-    <h1 style='text-align: center; color: #007bff;'>🔮 AI Future Predictor 🔮</h1>
+    <h1 style='text-align: center; color: #007bff;'>🔮 The AI-strologer 🔮</h1>
     <h4 style='text-align: center;'>Let AI predict your future in the funniest way possible!</h4>
 """, unsafe_allow_html=True)
 
