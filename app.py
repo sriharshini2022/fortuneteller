@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai  # Google AI API
 
 # 🔑 Set Your Google AI API Key (Replace with Your Key)
-GOOGLE_API_KEY = "AIzaSyBChtpfxdTTuHGV_UY1-i6EpBhC03-1K1Myour_google_api_key_here"
+GOOGLE_API_KEY = "AIzaSyBChtpfxdTTuHGV_UY1-i6EpBhC03-1K1M"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 st.set_page_config(page_title="AI Future Predictor", page_icon="🔮")
